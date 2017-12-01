@@ -6,15 +6,17 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 
 import { RouterModule } from '@angular/router';
-import appRoutes from '../config/routes';
-import { HomeComponent } from '../screens/home/home.component';
+import appRoutes from './config/routes';
+import { HomeComponent } from './screens/home/home.component';
+import { PageNotFoundComponent } from './screens/page-not-found/page-not-found.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
