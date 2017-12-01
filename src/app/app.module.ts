@@ -9,6 +9,8 @@ import { RouterModule } from '@angular/router';
 import appRoutes from './config/routes';
 import { HomeComponent } from './screens/home/home.component';
 import { PageNotFoundComponent } from './screens/page-not-found/page-not-found.component';
+import { VoterComponent } from './components/voter/voter.component';
+import { VoteTakerComponent } from './screens/vote-taker/vote-taker.component';
 
 
 
@@ -16,7 +18,9 @@ import { PageNotFoundComponent } from './screens/page-not-found/page-not-found.c
   declarations: [
     AppComponent,
     HomeComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    VoterComponent,
+    VoteTakerComponent
   ],
   imports: [
     BrowserModule,
