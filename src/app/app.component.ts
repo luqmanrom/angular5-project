@@ -9,4 +9,6 @@ export class AppComponent {
   title = 'app';
 
   name: 'Luqman';
+
+  
 }
