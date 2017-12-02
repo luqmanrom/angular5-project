@@ -11,6 +11,7 @@ import { HomeComponent } from './screens/home/home.component';
 import { PageNotFoundComponent } from './screens/page-not-found/page-not-found.component';
 import { VoterComponent } from './components/voter/voter.component';
 import { VoteTakerComponent } from './screens/vote-taker/vote-taker.component';
+import { VotersService } from './services/voters.service';
 
 
 
@@ -30,7 +31,7 @@ import { VoteTakerComponent } from './screens/vote-taker/vote-taker.component';
       { enableTracing: true } // <-- debugging purposes only
     )
   ],
-  providers: [],
+  providers: [VotersService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
